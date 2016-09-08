@@ -45,10 +45,6 @@ public class Pilha {
     static public Experimento desempilhar() throws ArrayIndexOutOfBoundsException, IOException {
         if (topo > 0) {
             --topo;
-            /*
-            AQUI DESEMPILHA O EXPERIMENTO E JA PEDE PRO "ASTRONAUTA" INSERIR O RESULTADO
-             */
-            Vetorexperimento[topo].resultado = resultado;
             return Vetorexperimento[topo];
         } else {
             throw new ArrayIndexOutOfBoundsException("A PILHA ESTA VAZIA");
