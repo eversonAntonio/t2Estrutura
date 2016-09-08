@@ -72,8 +72,6 @@ public class MainTeste {
                     case 3:
                         if (!Pilha.EstaVazia()) {
                             Experimento e = Pilha.desempilhar();
-                            System.out.println("Digite o resultado do experimento: ");
-                            e.resultado = br.readLine();
                             No no = new No();
                             no.elemento = e;
                             listaResultados.adicionar(no);

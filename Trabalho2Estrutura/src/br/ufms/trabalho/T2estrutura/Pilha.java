@@ -48,6 +48,8 @@ public class Pilha {
             /*
             AQUI DESEMPILHA O EXPERIMENTO E JA PEDE PRO "ASTRONAUTA" INSERIR O RESULTADO
              */
+            System.out.println("INFORME O RESULTADO");
+            resultado = br.readLine();
             Vetorexperimento[topo].resultado = resultado;
             return Vetorexperimento[topo];
         } else {
