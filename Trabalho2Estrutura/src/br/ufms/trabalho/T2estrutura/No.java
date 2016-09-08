@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.ufms.trabalho.estrutura.listaResultado;
+package br.ufms.trabalho.T2estrutura;
 
 /**
  *
- * @author PC
+ * @author higor.chaves
  */
 public class No {
     
-    public No prox;
-    public No ante;
+    int info;
+    No ant;
+    No prox;
+    Experimento elemento;
     
 }
